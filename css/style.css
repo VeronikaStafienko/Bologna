@@ -120,15 +120,43 @@ a.magnifier {
   padding-bottom: 80px;
 }
 
+.articles-image {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.comment-img {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 25px;
+  left: 25px;
+}
+
+.audio-button {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  top: 30px;
+  left: 40px;
+}
+
+a.button {
+  padding-right: 10px;
+}
+
+.audio-player {
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+}
+
 .item-text {
   width: 361px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-}
-
-.articles-item img {
-  margin-bottom: 15px;
 }
 
 .article-theme {
@@ -201,7 +229,7 @@ h2.article-title {
 }
 
 .sidebar-item {
-  padding-bottom: 51px;
+  padding-bottom: 45px;
 }
 
 a.theme-bio {
